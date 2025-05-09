@@ -4455,9 +4455,9 @@ def server(input: Inputs, output: Outputs, session: Session):
                 Settings.loc[17,'Selected setting']=f"{input.file6()[0]['name']}"
             
         EndDate=datetime.now()
-        Settings.loc[18,'Selected setting']=f"{StartDate.strftime("%Y-%m-%d %H:%M:%S")}"
-        Settings.loc[19,'Selected setting']=f"{EndTime_CW.strftime("%Y-%m-%d %H:%M:%S")}"
-        Settings.loc[20,'Selected setting']=f"{EndDate.strftime("%Y-%m-%d %H:%M:%S")}"
+        Settings.loc[18,'Selected setting']=f"{StartDate.strftime('%Y-%m-%d %H:%M:%S')}"
+        Settings.loc[19,'Selected setting']=f"{EndTime_CW.strftime('%Y-%m-%d %H:%M:%S')}"
+        Settings.loc[20,'Selected setting']=f"{EndDate.strftime('%Y-%m-%d %H:%M:%S')}"
 
         duration = EndDate - StartDate
         total_seconds = int(duration.total_seconds())
