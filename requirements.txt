@@ -1,0 +1,10 @@
+shiny
+shinyswatch
+faicons
+pandas
+numpy
+matplotlib
+fpdf
+Pillow
+scipy
+numba
